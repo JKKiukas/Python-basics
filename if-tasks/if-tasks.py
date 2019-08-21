@@ -55,3 +55,37 @@ else:
     else:
         print('\nFirst number is the biggest one.')
 # The fourth program ends here.
+
+# The fifth program starts here.
+
+print('\nInsert three numbers and the program will put them from the smallest to the largest.\n')
+
+firstDigit = int(input('Insert the first number: '))
+secondDigit = int(input('Insert the second number: '))
+thirdDigit = int(input('Insert the third number: '))
+print('')
+
+if firstDigit < secondDigit:
+    if secondDigit < thirdDigit:
+        print(firstDigit, secondDigit, thirdDigit)
+
+if secondDigit < thirdDigit:
+    if thirdDigit < firstDigit:
+        print(secondDigit, thirdDigit, firstDigit)
+
+if thirdDigit < secondDigit:
+    if secondDigit < firstDigit:
+        print(thirdDigit, secondDigit, firstDigit)
+
+if firstDigit < thirdDigit:
+    if thirdDigit < secondDigit:
+        print(firstDigit, thirdDigit, secondDigit)
+
+if secondDigit < firstDigit:
+    if firstDigit < thirdDigit:
+        print(secondDigit, firstDigit, thirdDigit)
+
+if thirdDigit < firstDigit:
+    if firstDigit < secondDigit:
+        print(thirdDigit, firstDigit, secondDigit)
+# The fifth program ends here.
